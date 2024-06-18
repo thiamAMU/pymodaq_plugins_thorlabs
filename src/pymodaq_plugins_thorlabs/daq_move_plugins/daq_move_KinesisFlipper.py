@@ -66,7 +66,7 @@ class DAQ_Move_KinesisFlipper(DAQ_Move_base):
 
             See Also
             --------
-            DAQ_Move_base.get_position_with_scaling, daq_utils.ThreadCommand
+            DAQ_Move_base.get_position_with_scaling, daq_utils.ThreadCommand***
         """
 
         pos = self.controller.get_position()
